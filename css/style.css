@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.nav-img {
+    height: 91px;
+    width: 170px;
+}
+.ul-list {
+    list-style: none; 
+}
+.ul-list li {
+    display: inline;
+    margin-left: 30px;
+
+}
+.ul-list li a {
+    text-decoration: none;
+    color: #272727;
+    font-size: 25px;
+}
+.nav-add {
+    width: 90px;
+    height: 50px;
+}
+.nav-avtar {
+    width: 64px;
+    height: 50px;
+    float: right;  
+}
+.nav-pic img{
+   margin-right: 20px;
+}
+.menu-icon {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .nav-img  {
+        height: 71px;
+        width: 130px;
+    }
+    .ul-list li a {
+        font-size: 1rem;
+    }
+    .nav-add {
+        width: 50px;
+        height: 30px;
+        margin-top: 8px;
+    }
+    .nav-avtar {
+        width: 40px;
+        height: 30px;  
+        margin-top: 8px;
+    } 
+}
+@media screen and (max-width : 425px) {
+    .nav-add {
+        display: none;
+    }
+    .nav-avtar {
+        display: none;
+    }
+    .ul-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top:8.9%;
+        position: absolute;
+        text-align: center; 
+        background: #fff;
+        gap: 20px;
+     }
+     .ul-list li {
+        margin-left:0;
+     }
+    .collapsible__content {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: all 0.3s;
+    }
+    
+    .collapsible--expanded .collapsible__content {
+        max-height: 100vh;
+        opacity: 1;
+    }
+    .menu-icon {
+        display: block;
+        color: #110101;
+        line-height: 70px;
+     }
+     .navbar {
+        justify-content: space-between;
+        padding: 0;
+     }
+     .nav-img  {
+        height: 50px;
+        width: 110px;
+    }
+}
+
+/* end of nav section */
+.header-container {
+    background: url(../images/banner.png);
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    height: calc(100vh - 125px);
+    background-size: cover;
+}
+.header-img {
+    width: 100%;
+}
+.img-1 {
+    position: relative;
+}
+.img-2 {
+    position: absolute;
+    
+}
