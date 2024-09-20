@@ -172,11 +172,41 @@ header {
         left: 11%;
     } 
 }
-@media screen and (max-width :425px) {
+@media screen and (max-width :430px) {
+    .header-container {
+        background: url(../images/banner\ \(1\)\ \(4\)\ \(1\).png);
+        
+        background-repeat: no-repeat;    
+    
+        
+    }
+    .element-one {
+        display: none;
+    }
+    .element-two {
+        display: none;
+    }
     .element-three {
-        position: absolute;
-        width: ;
-        height: 317px;
-        left: 11%;
+        display: none;
     } 
+}
+@media screen and (max-width : 320px) {
+    .header-container {
+        background: url(../images/banner\ \(1\)\ \(4\)\ \(2\).png);
+        background-repeat: no-repeat;    
+    }
+}
+.element-four {
+    position: absolute;
+    right: 38%;
+    top: 63%;
+    padding: 14px 70px;
+    border-radius: 15px;
+    background: none;
+    border: 2px solid #fff;
+}
+.element-four::placeholder {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
 }
