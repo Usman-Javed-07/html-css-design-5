@@ -217,7 +217,7 @@ header {
 }
 @media screen and (max-width:1024px) {
     .element-four {
-        top: 35%;
+        top: 55%;
         right: 30%;
     }
 }
@@ -225,5 +225,20 @@ header {
     .element-four {
         top: 35%;
         right: 30%;
+    }
+}
+
+/* @media screen and (max-width:430px) {
+    .element-four {
+        top: 50%;
+        right: 20%;
+        padding: 8px 20px;
+    }
+} */
+@media screen and (max-width:430px) {
+    .element-four {
+        top: 18%;
+        right: 20%;
+        padding: 5px 10px;
     }
 }
