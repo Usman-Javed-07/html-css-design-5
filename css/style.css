@@ -131,17 +131,52 @@ header {
 }
 .header-container {
     background: url(../images/banner.png);
-    height: 100vh;
+    height: 120%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
  }
-.header-img {
+.element-one{
+    background-position: center;
     width: 100%;
-}
-/* .img-1 {
     position: relative;
 }
-.img-2 {
+.element-two {
+    width: 100%;
     position: absolute;
-    
-}  */
+    right: 1%;
+   
+}
+.element-three {
+    position: absolute;
+    right: 16%;
+}
+
+@media screen and (max-width:1024px) {
+    .element-three {
+        left: 12%;
+        width: 811px;
+        height: 391px;
+    }
+} 
+@media screen and (max-width:768px) {
+    .header-container {
+        background: url(../images/banner\ \(3\).png);
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    .element-three {
+        position: absolute;
+        width: 592px;
+        height: 317px;
+        left: 11%;
+    } 
+}
+@media screen and (max-width :425px) {
+    .element-three {
+        position: absolute;
+        width: ;
+        height: 317px;
+        left: 11%;
+    } 
+}
