@@ -154,9 +154,13 @@ header {
 
 @media screen and (max-width:1024px) {
     .element-three {
-        left: 12%;
-        width: 811px;
-        height: 391px;
+        left: 16%;
+        width: 766px;
+        top: 29%;
+        height: 363px;
+    }
+    .element-four {
+        top: 1%;
     }
 } 
 @media screen and (max-width:768px) {
@@ -170,6 +174,7 @@ header {
         width: 592px;
         height: 317px;
         left: 11%;
+        top: 17%;
     } 
 }
 @media screen and (max-width :430px) {
@@ -209,4 +214,16 @@ header {
     color: #fff;
     font-size: 1rem;
     text-align: center;
+}
+@media screen and (max-width:1024px) {
+    .element-four {
+        top: 35%;
+        right: 30%;
+    }
+}
+@media screen and (max-width:768px) {
+    .element-four {
+        top: 35%;
+        right: 30%;
+    }
 }
