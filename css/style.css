@@ -392,6 +392,16 @@ header {
 .img-two img{
 width: 120px;
 }
+.more-data a:hover {
+    background: red;
+    color: #fff;
+   ;
+}
+.more-data .link:hover {
+    background: blue;
+    color: #fff;
+    background: #f5f9ff;
+}
 @media screen and (max-width:1024px) {
     .general-img img  {
         left: 12%;
@@ -446,5 +456,153 @@ width: 120px;
         left: 9%;
         width: 54px;
         top: 68%;
+    }
+}
+/* end of user section */
+.review {
+    margin-top: 40px;
+}
+.user-name img {
+    width: 290px;
+    margin-left: 150px;
+}
+ .review-paraone {
+    width: 62%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 24px;
+}
+
+.person-review a{
+    border: 1px solid blue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: blue;
+    margin-right: 80px;
+}
+.pepsi-main-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.person-review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.review-link{
+    margin-top: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.person-review h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+.review-link a:hover {
+    background: blue;
+    color: #fff;
+    transition: 0.5s;
+}
+@media screen  and (max-width:767px){
+    .pepsi-main-section  {
+        display: block;
+    }
+    .user-name img {
+        width: 180px;
+        margin-left: 15px;
+    }
+    .pepsi img {
+        height: 300px;
+        text-align: ;
+    }
+    .person-review h3 {
+        font-size: 25px;
+    }
+    .review-paraone {
+        padding: 7px;
+        font-size: 11px;
+    }
+    .review-link {
+        display: block;
+    }
+   .review-link a {
+    display: flex;
+    justify-content: center;
+    left: 10px;
+    }
+    .person-review a{
+    margin-right: 0px;
+    }
+    .person-review {
+        padding: 0 20px 0 20px;
+    }
+    .review-link {
+        margin-top: 30px;
+    }
+
+  .review-link p  {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
+
+.like-dislike{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-dislike a {
+    margin-top: 30px;
+    text-decoration: none;
+    border: 1px solid blue;
+    background: blue;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.like-dislike a:hover{
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+}
+@media screen and (max-width:760px){
+    .like-dislike img {
+        width: 120px;
+    }
+    .like-dislike a {
+        font-size: 0.5rem;
+    }
+}
+/* end of review */
+.brands {
+    width: 100%;
+    background: #f5f9ff;
+    margin-top: 50px
+}
+.brands img {
+ width: 600px;
+ padding: 40px;
+}
+.brand-image {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:767px) {
+    .brands img {
+        width: 90%;
     }
 }
