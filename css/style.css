@@ -382,7 +382,6 @@ header {
     width: 100px;
     top: 55%;
 }
-
 @media screen and (max-width:1024px) {
     .general-img img  {
         left: 12%;
