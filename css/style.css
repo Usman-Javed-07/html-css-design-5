@@ -57,6 +57,7 @@ html,body {
 }
 .ul-list li a:hover {
     color: blue;
+    transition: ease-out 0.5s;
 }
 @media screen and (max-width:768px) {
     .nav-img  {
@@ -402,7 +403,7 @@ width: 120px;
 .more-data .link:hover {
     background: blue;
     color: #fff;
-    background: #f5f9ff;
+    background: blue;
 }
 @media screen and (max-width:1024px) {
     .general-img img  {
