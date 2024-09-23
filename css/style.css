@@ -238,7 +238,7 @@ header {
 }
 @media screen and (max-width:430px) {
     .element-four {
-        top: 25%;
+        top: 16%;
         right: 20%;
         padding: 5px 10px;
     }
@@ -289,7 +289,9 @@ header {
 
 .user-section {
     margin-top:5%;
-    background: url(../images/Rectangle\ 31.png);
+    /* background: url(../images/Rectangle\ 31.png); */
+    background: #f5f9ff;
+    clip-path: polygon(0% 7%, 35% 0%, 73% 10%, 100% 0%, 100% 100%, 76% 93%, 48% 100%, 19% 90%, 0% 100%);
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
