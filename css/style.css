@@ -524,6 +524,7 @@ width: 120px;
         margin-left: 15px;
     }
     .pepsi img {
+        width: 100%;
         height: 300px;
         text-align:center ;
     }
